@@ -1,9 +1,10 @@
 {
-  "name": "react-portfolio-template",
+  "name": "portfolio",
+  "homepage": "https://blakerunner.com",
   "private": true,
-  "description": "Portfolio Template For Awesome Peoples",
-  "version": "0.1.0",
-  "author": "Chetan Verma <hello@chetanverma.com>",
+  "description": "Portfolio",
+  "version": "0.2.0",
+  "author": "Chetan Verma <hello@chetanverma.com> extended by Blake Michalzik",
   "dependencies": {
     "gatsby": "^2.26.1",
     "gatsby-image": "^2.5.0",
