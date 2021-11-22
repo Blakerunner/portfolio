@@ -8,13 +8,13 @@ const Header = () => {
       <div className="container">
         <div className="header-wrapper">
           <Fade bottom>
-            <h2>{data.name}</h2>
+            <h1>{data.name}</h1>
           </Fade>
           <Fade bottom cascade>
             <div className="heading-wrapper">
-              <h1>{data.headerTagline[0]}</h1>
-              <h1>{data.headerTagline[1]}</h1>
-              <h1>{data.headerTagline[2]}</h1>
+              <h2>{data.headerTagline[0]}</h2>
+              <h2>{data.headerTagline[1]}</h2>
+              <h2>{data.headerTagline[2]}</h2>
             </div>
           </Fade>
           <Fade bottom>

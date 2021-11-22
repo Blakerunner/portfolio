@@ -21,7 +21,7 @@ const Projects = () => {
                   heading={project.title}
                   paragraph={project.para}
                   imgUrl={project.imageSrc}
-                  projectLink={project.url}
+                  links={project.links}
                 ></Card>
               ))}
             </Fade>
