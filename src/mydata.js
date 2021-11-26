@@ -21,6 +21,7 @@ import cvIcon from "./images/cv.svg"
 import resumeIcon from "./images/resume.svg"
 import serverIcon from "./images/server.svg"
 import viewIcon from "./images/view.svg"
+import youtubeIcon from "./images/youtube.svg"
 
 import htmlIcon from "./images/html.svg"
 import cssIcon from "./images/css.svg"
@@ -144,11 +145,11 @@ export default {
     "I still vividly remember at the age of 4 my first experience with computers. Perched on my father’s knees and wrapped in a towel, from my recent thunderstorm adventures, I was shouting 'Go! Go! Go!'. I was rapidly pressing a spacebar to shoot while father was masterfully navigating our player character through the game level. I was the arms, he was the legs. Years later I learned we were playing Doom 1993.",
   aboutParaThree:
     "Maybe it was the Doom, but years later I joined on to the Australian Defence Force for a decade. I was young and restless and wanted to see what I was capable of. Turns out, I'm capable of anything I aim for. Joining as a Combat Engineer in an Airborne unit, I wanted to be at the front. I learned a lot, how to work as a team, how to take the initiative, fix something before its a problem, completely shift gears because priorities changed and something needs a fix yesterday ... heck yeah let’s go.",
-    aboutParaFour:
+  aboutParaFour:
     "Sometime after a particularly ridiculous night-time fast-roping drop from a helicopter into a forest with a chainsaw strapped to my leg, I thought 'Hey I should work on these…",
-    aboutParaFive: 
+  aboutParaFive:
     "Avionics Technician was an excellent fit for me, technically complex troubleshooting on aircraft electrical systems was great for me to learn to be particularly methodical and bugfix. There was something missing though, I still really wanted to build things, and I felt that I wasn't contributing enough to humanity. I already knew Tech was the answer. It had always been there with me, even 4 year old me knew it.",
-    aboutParaFive: 
+  aboutParaSix:
     "Graduating in 2022, I've got computer science knowledge under my belt and I'm looking for development opportunities. Along with my tenacity, professionalism, and attention to detail, I believe I'll make an excellent team member at your company.",
   aboutImage: blakePortrait1,
 
@@ -206,6 +207,7 @@ export default {
       url: "https://www.linkedin.com/in/blakemichazik/",
     },
     { img: githubIcon, url: "https://github.com/Blakerunner" },
+    { img: youtubeIcon, url: "https://youtube.com/c/Blakerunner" },
   ],
 
   // End Contact Section ---------------

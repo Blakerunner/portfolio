@@ -4,9 +4,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+
   .name {
     font-weight: 600;
   }
+
   .links-wrapper {
     button {
       text-decoration: none;
@@ -19,10 +21,12 @@
       outline: none;
       border: 0px;
       cursor: pointer;
+
       &:hover {
         opacity: 1;
       }
     }
+
     .active {
       color: black;
     }
