@@ -1,6 +1,6 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
-import data from "../yourdata"
+import data from "../mydata"
 
 const About = () => {
   return (
@@ -9,16 +9,23 @@ const About = () => {
         <div className="about-section">
           <div className="content">
             <Fade bottom cascade>
-              <h1>About Me</h1>
+              <h1>About</h1>
             </Fade>
             <p>
               {data.aboutParaOne}
-              <br></br>
-              <br></br>
+              <br />
+              <br />
               {data.aboutParaTwo}
-              <br></br>
-              <br></br>
+              <br />
+              <br />
               {data.aboutParaThree}
+              {data.aboutParFour}
+              <br />
+              <br />
+              {data.aboutParaFive}
+              <br />
+              <br />
+              {data.aboutParaSix}
             </p>
           </div>
           <div className="image-wrapper">
