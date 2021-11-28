@@ -46,9 +46,13 @@ export default {
   // Work Section ------------------------
   works: [
     {
-      title: "Pacific Eye Doctors",
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      company: "Pacific Eye Doctors",
+      postiion: "Solutions Architect",
+      period: "",
+      roleList: [
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      ],
       imageSrc: pedBanner,
       links: [
         { url: "https://www.eyedoctorsmapleridge.ca/", icon: viewIcon },
@@ -59,16 +63,24 @@ export default {
       ],
     },
     {
-      title: "Setu Technologies Inc",
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      company: "Setu Technologies Inc",
+      postiion: "Solutions Architect",
+      period: "",
+      roleList: [
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      ],
       imageSrc: setutechBanner,
       links: [{ url: "https://setutech.ca/", icon: viewIcon }],
     },
     {
-      title: "AI for Ai",
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      company: "AI for Ai",
+      postiion: "Solutions Architect",
+      period: "",
+      roleList: [
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      ],
       imageSrc: aiforaiBanner,
       links: [
         { url: "https://aiforai.net/", icon: viewIcon },
@@ -79,9 +91,13 @@ export default {
       ],
     },
     {
-      title: "ADF Aviation",
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      company: "ADF Aviation",
+      postiion: "Solutions Architect",
+      period: "",
+      roleList: [
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      ],
       imageSrc: blakeTechnician1,
       links: [
         {
@@ -91,9 +107,13 @@ export default {
       ],
     },
     {
-      title: "ADF Royal Australian Engineers",
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      company: "ADF Royal Australian Engineers",
+      postiion: "Solutions Architect",
+      period: "",
+      roleList: [
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      ],
       imageSrc: blakeCE1,
       links: [
         {
@@ -110,8 +130,12 @@ export default {
   projects: [
     {
       title: "Covid Royale",
-      para:
-        "Early Covid-19 and Pub G was still interesting. Covid Royale was a 16-bit attempt at a game that was fun and informative",
+      blurb:
+        "Early Covid-19 and Pub G was still interesting. Covid Royale was a 16-bit attempt at a game that was fun and informative.",
+      featureList: [
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      ],
       imageSrc: covidroyaleBanner,
       links: [
         { url: "https://covid-royale.blakerunner.com", icon: serverIcon },
@@ -124,8 +148,12 @@ export default {
     },
     {
       title: "Mimid",
-      para:
+      blurb:
         "Lightweight Chrome extension for Text-to-Speak highlighted text using AWS Polly",
+      featureList: [
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      ],
       imageSrc: mimidBanner,
       links: [
         {

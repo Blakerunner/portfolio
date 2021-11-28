@@ -1,6 +1,6 @@
 import React from "react"
-import Card from "./atoms/Card"
 import Fade from "react-reveal/Fade"
+import WorkCard from "./atoms/WorkCard"
 
 import data from "../mydata"
 
@@ -16,13 +16,7 @@ const Work = () => {
           <div className="grid">
             <Fade bottom cascade>
               {data.works.map((work, index) => (
-                <Card
-                  key={index}
-                  heading={work.title}
-                  paragraph={work.para}
-                  imgUrl={work.imageSrc}
-                  links={work.links}
-                ></Card>
+                <WorkCard key={index} work={work}></WorkCard>
               ))}
             </Fade>
           </div>

@@ -1,6 +1,6 @@
 import React from "react"
 
-const Card = ({ work }) => {
+const WorkCard = work => {
   return (
     <div
       className="card"
@@ -13,7 +13,13 @@ const Card = ({ work }) => {
         <h1 className="company">{work.company}</h1>
         <p className="position">{work.position}</p>
         <p className="period">{work.period}</p>
-
+        <ul class="role-list" style={{ listStyleType: "none" }}>
+          {work.roleList.map((role, index) => (
+            <li key={index} className="role-list-item">
+              {role}
+            </li>
+          ))}
+        </ul>
         <div className="link-icons">
           {work.links.map((link, index) => (
             <a
@@ -31,4 +37,4 @@ const Card = ({ work }) => {
   )
 }
 
-export default Card
+export default WorkCard
