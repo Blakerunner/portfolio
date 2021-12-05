@@ -1,22 +1,27 @@
-import React from "react"
+import React, { useState } from "react"
 
-const WorkCard = work => {
+const WorkCard = ({ work }) => {
+  const [cardActive, setCardActive] = useState(false)
+
   return (
     <div
-      className="card"
-      style={{
-        backgroundImage: "url(" + work.imgUrl + ")",
-      }}
+      className={`card ${cardActive ? "active" : ""}`}
+      onMouseEnter={() => setCardActive(true)}
+      onMouseLeave={() => setCardActive(false)}
+      // onClick={() => setCardActive(!cardActive)}
+      style={{ backgroundImage: "url(" + work.imageSrc + ")" }}
       href={work.links[0].url ? work.links[0].url : "#"}
     >
       <div className="content">
         <h1 className="company">{work.company}</h1>
-        <p className="position">{work.position}</p>
-        <p className="period">{work.period}</p>
-        <ul class="role-list" style={{ listStyleType: "none" }}>
+        <div className="position-wrapper">
+          <p className="position">{work.position}</p>
+          <p className="period">{work.period}</p>
+        </div>
+        <ul class="role-list">
           {work.roleList.map((role, index) => (
             <li key={index} className="role-list-item">
-              {role}
+              <p>{role}</p>
             </li>
           ))}
         </ul>
@@ -24,7 +29,7 @@ const WorkCard = work => {
           {work.links.map((link, index) => (
             <a
               key={index}
-              href={work.link.url}
+              href={link.url}
               target="_blank"
               rel="noopener noreferrer"
             >

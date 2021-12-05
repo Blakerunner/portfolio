@@ -47,11 +47,12 @@ export default {
   works: [
     {
       company: "Pacific Eye Doctors",
-      postiion: "Solutions Architect",
-      period: "",
+      position: "Solutions Architect",
+      period: "Jun 2020 - Present",
       roleList: [
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Research, develop and implement technical solutions for Pacific Eye Doctors.",
+        "Ideated, Pitched, Implemented, Maintain, and update Pacific Eye Doctors' internal Information Portal for business standard operation practices, significantly improving new hire training times and creating a reliable reference source.",
+        "Consult for business solutions involving SaaS, PaaS, and IaaS.",
       ],
       imageSrc: pedBanner,
       links: [
@@ -64,22 +65,27 @@ export default {
     },
     {
       company: "Setu Technologies Inc",
-      postiion: "Solutions Architect",
-      period: "",
+      position: "Developer",
+      period: "Sep 2021 - Dec 2021",
       roleList: [
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Headed a team of 5 developers in Ideating, Designing, Developing, and Deploying a Web Application in 12 Weeks.",
+        "Created a Web Application that provided a UI for Clients to view large amounts of time-series data from sensors monitoring business assets.",
+        "Met MVP requirements in 8 weeks, allowing for additional data security implementation and administrative features.",
+        "Personally responsible for Node RESTful API handling all server and database implementation.",
+        "Maintained Cloud services and implemented CI/CD. Allowing for product uptime while fortnightly versions rolled out from a 2-week Sprint cycle.",
       ],
       imageSrc: setutechBanner,
       links: [{ url: "https://setutech.ca/", icon: viewIcon }],
     },
     {
       company: "AI for Ai",
-      postiion: "Solutions Architect",
-      period: "",
+      position: "Developer",
+      period: "Apr 2021 – May 2021",
       roleList: [
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Headed a team of 4 in Ideating, Designing, Developing, and Deploying an Application in 5 weeks.",
+        "Created a Web application that provided a secure method for clients to view specific industry asset information as a dashboard with integrated ML predictive asset degradation rates.",
+        "Provided a highly secure environment utilizing HTTPS, JWT, Azure ID to ensure the Power BI dashboard is only accessible by a specified user.",
+        "Managed a large cloud network to integrate ML containers, MySQL database, Web Application Server, and Power Bi.",
       ],
       imageSrc: aiforaiBanner,
       links: [
@@ -92,11 +98,14 @@ export default {
     },
     {
       company: "ADF Aviation",
-      postiion: "Solutions Architect",
-      period: "",
+      position: "Avionics Technician",
+      period: "Jan 2015 – Aug 2018",
       roleList: [
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Delivered day and night shift maintenance, with limited resources and time while ensuring the airworthiness of $32M Black Hawk helicopters.",
+        "Carried out servicing, overhauls, and repairs to aircraft electrical systems and equipment.",
+        "Identified and investigated defects, either providing on-the-spot repairs or recommended remedial follow-up actions.",
+        "Improved the reliability of shift handovers by creating a paired handover methodology.",
+        "Integrated with members of flight crew during test flights, providing expertise in diagnosing and rectifying aircraft faults.",
       ],
       imageSrc: blakeTechnician1,
       links: [
@@ -108,11 +117,14 @@ export default {
     },
     {
       company: "ADF Royal Australian Engineers",
-      postiion: "Solutions Architect",
-      period: "",
+      position: "Airborne Combat Engineer",
+      period: "Apr 2008 – Jan 2015",
       roleList: [
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Immediately qualified and selected for the specialist, 21st Troop Airborne Engineers.",
+        "Responsible for 12 personnel, a heavy leadership role providing guidance, knowledge, mentorship, and command.",
+        "Developed a personal trust, in Laying, arming, neutralizing, disarm and removing mines, booby traps, and improvised explosives.",
+        "Led reconnaissance team to allow safe passage ahead for 200+ servicemen and $100M+ worth of equipment.",
+        "Developed personal readiness to deploy within 48 hours to anywhere in the world.",
       ],
       imageSrc: blakeCE1,
       links: [
