@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from "react"
 import Fade from "react-reveal/Fade"
 import WorkCard from "./atoms/WorkCard"
-import { wrapGrid } from "animate-css-grid"
 
 import data from "../mydata"
 
@@ -13,16 +12,7 @@ const Work = () => {
           <Fade bottom>
             <h1>Work</h1>
           </Fade>
-          <div
-            className="grid"
-            ref={grid => {
-              wrapGrid(grid, {
-                easing: "easeInOut",
-                duration: 500,
-                stagger: 0,
-              })
-            }}
-          >
+          <div className="grid">
             <Fade bottom cascade>
               {data.works.map((work, idx) => (
                 <WorkCard key={idx} work={work}></WorkCard>

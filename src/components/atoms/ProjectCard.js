@@ -1,21 +1,24 @@
-import React from "react"
+import React, { useState } from "react"
 
 const ProjectCard = ({ project }) => {
+  const [cardActive, setCardActive] = useState(false)
+
   return (
     <div
-      className="card"
-      style={{
-        backgroundImage: "url(" + project.imageSrc + ")",
-      }}
+      className={`card ${cardActive ? "active" : ""}`}
+      onClick={() => setCardActive(!cardActive)}
+      style={{ backgroundImage: "url(" + project.imageSrc + ")" }}
       href={project.links[0].url ? project.links[0].url : "#"}
     >
-      <div className="content">
-        <h1 className="project">{project.company}</h1>
-        <p className="blurb">{project.period}</p>
-        <ul class="feature-list">
-          {project.featureList.map((feature, index) => (
+      <div className={`content ${cardActive ? "active-content" : ""}`}>
+        <h1 className="title">{project.title}</h1>
+        <div className="blurb-wrapper">
+          <p className="blurb">{project.blurb}</p>
+        </div>
+        <ul class="role-list">
+          {project.featureList.map((role, index) => (
             <li key={index} className="feature-list-item">
-              <p>{feature}</p>
+              <p>{role}</p>
             </li>
           ))}
         </ul>

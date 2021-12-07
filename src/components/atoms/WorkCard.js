@@ -6,13 +6,11 @@ const WorkCard = ({ work }) => {
   return (
     <div
       className={`card ${cardActive ? "active" : ""}`}
-      onMouseEnter={() => setCardActive(true)}
-      onMouseLeave={() => setCardActive(false)}
-      // onClick={() => setCardActive(!cardActive)}
+      onClick={() => setCardActive(!cardActive)}
       style={{ backgroundImage: "url(" + work.imageSrc + ")" }}
       href={work.links[0].url ? work.links[0].url : "#"}
     >
-      <div className="content">
+      <div className={`content ${cardActive ? "active-content" : ""}`}>
         <h1 className="company">{work.company}</h1>
         <div className="position-wrapper">
           <p className="position">{work.position}</p>

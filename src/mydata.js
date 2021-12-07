@@ -145,8 +145,10 @@ export default {
       blurb:
         "Early Covid-19 and Pub G was still interesting. Covid Royale was a 16-bit attempt at a game that was fun and informative.",
       featureList: [
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        'Won Most Creative App & Best Teamwork Award against 61 other teams.',
+        "Ideated, Designed, Developed and Deployed a Web-based multiplayer game in 5 weeks.",
+        "Specifically, server and game client interaction utilized Phaser 3 OOP game library, integration a 16-bit mapping method allowing for customized in-game maps.",
+        'Designed and implemented a modular map randomization method so no two games were the same, extending game re-playability substantially.',
       ],
       imageSrc: covidroyaleBanner,
       links: [
@@ -163,8 +165,9 @@ export default {
       blurb:
         "Lightweight Chrome extension for Text-to-Speak highlighted text using AWS Polly",
       featureList: [
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Ideated, Designed and Developed a working chrome application utilizing AWS services to provide an advanced screen reader utility extension.",
+        "Optimized extension to reduce resource cost of AWS services by frontloading processing within the browser rather than serverless resources.",
+        "Managed a group of 4 peers in task allocation, expected delivery times and quality of work.",
       ],
       imageSrc: mimidBanner,
       links: [
@@ -179,18 +182,16 @@ export default {
   // End Project Section -----------------------
 
   // About Secton --------------
-  aboutParaOne:
-    "Hello, I'm Blake and I'm excited to be part of the wildly fascinating computer-based timeline. I'm a recent CS graduate and looking forward to many, many years of those eureka moments when a (code) plan comes together. I believe creative problem solving and engineering holds a special type of mind-stretching joy for most people, but for me, it's my Ikigai.",
-  aboutParaTwo:
-    "I still vividly remember at the age of 4 my first experience with computers. Perched on my father’s knees and wrapped in a towel, from my recent thunderstorm adventures, I was shouting 'Go! Go! Go!'. I was rapidly pressing a spacebar to shoot while father was masterfully navigating our player character through the game level. I was the arms, he was the legs. Years later I learned we were playing Doom 1993.",
-  aboutParaThree:
-    "Maybe it was the Doom, but years later I joined on to the Australian Defence Force for a decade. I was young and restless and wanted to see what I was capable of. Turns out, I'm capable of anything I aim for. Joining as a Combat Engineer in an Airborne unit, I wanted to be at the front. I learned a lot, how to work as a team, how to take the initiative, fix something before its a problem, completely shift gears because priorities changed and something needs a fix yesterday ... heck yeah let’s go.",
-  aboutParaFour:
-    "Sometime after a particularly ridiculous night-time fast-roping drop from a helicopter into a forest with a chainsaw strapped to my leg, I thought 'Hey I should work on these…",
-  aboutParaFive:
-    "Avionics Technician was an excellent fit for me, technically complex troubleshooting on aircraft electrical systems was great for me to learn to be particularly methodical and bugfix. There was something missing though, I still really wanted to build things, and I felt that I wasn't contributing enough to humanity. I already knew Tech was the answer. It had always been there with me, even 4 year old me knew it.",
-  aboutParaSix:
-    "Graduating in 2022, I've got computer science knowledge under my belt and I'm looking for development opportunities. Along with my tenacity, professionalism, and attention to detail, I believe I'll make an excellent team member at your company.",
+  aboutParas: [
+    "Hello, I’m Blake Michalzik.",
+    "Soon to be grad with a Diploma in Computer Systems Technology from BCIT (Dec 2021).",
+    "I’m an Australian/Canadian, with a passion for creation and problem solving for anything that can be solved with tech for your business. With 10 years of Australian Military experience, I’ve learned a lot about how to deal with problems with deadlines, how to prioritize solutions and how to do that as a team.",
+    "Being around computers all my life and coming from a career where creative problem solving is a requirement, a natural progression has led me into computer engineering.",
+    "The intense learning conditions in BCIT’s programs have really ignited my vision of what I can do within the tech industry. I’ve thoroughly enjoyed every minute of being a programmer and I look forward to applying what I’ve learned to business solutions.",
+    "I am still drawn to the concept of providing service. My goal is to leverage technology in a way to benefits humanity, and I am very excited to be on this path.",
+    "In my free time, you can find me in the gym listening to podcasts, in the kitchen whipping up a feast, watching mind-bending films or in a local forest enjoying the fresh air checking out what type of mushroom this one is up ahead.",
+    "I excel in group working environments with my experiences in the military called for professionalism always and the objective comes first. I am excellent at cutting down the issue and finding the core problem that needs to be solved. I have the tenacity that if I don’t know now how to do something, I find the questions that need to be asked, and then find answers to them.",
+  ],
   aboutImage: blakePortrait1,
 
   //   End About Section ---------------------
