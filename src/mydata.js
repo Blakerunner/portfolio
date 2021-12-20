@@ -1,6 +1,7 @@
 // Projects
 import covidroyaleBanner from "./images/covidroyale-banner.png"
 import mimidBanner from "./images/mimid-banner.png"
+import succinctBanner from "./images/succinct-banner.png"
 
 // Works
 import pedBanner from "./images/ped-banner.png"
@@ -22,6 +23,7 @@ import resumeIcon from "./images/resume.svg"
 import serverIcon from "./images/server.svg"
 import viewIcon from "./images/view.svg"
 import youtubeIcon from "./images/youtube.svg"
+import devpostIcon from "./images/devpost.svg"
 
 import htmlIcon from "./images/html.svg"
 import cssIcon from "./images/css.svg"
@@ -140,6 +142,27 @@ export default {
 
   // Projects Section ------------------------
   projects: [
+    {
+      title: "Succinct",
+      blurb:
+        "Succinct produces a concise summary of text, websites and files while preserving key information and overall meaning.",
+      featureList: [
+        "Won Most Marketable Award and Placed 2nd Overall in BCIT Winter Hacks 2021.",
+        "Collaborated with a team of 4 to deliver a MVP of a viable marketable application within 48 hrs.",
+        "Core to the application design and marketability design of the for real world viability.",
+        "Delivered DevOps with Azure cloud and Shared hosting services, utilizing CI/CD allowing for rapid team development and live access.",
+        "Developed, designed and delivered the Flask API.",
+      ],
+      imageSrc: succinctBanner,
+      links: [
+        { url: "https://succinct.blakerunner.com", icon: serverIcon },
+        {
+          url:
+            "https://devpost.com/software/succinct-pefvgq",
+          icon: devpostIcon,
+        },
+      ],
+    },
     {
       title: "Covid Royale",
       blurb:
