@@ -13,7 +13,7 @@ import Footer from "../components/Footer"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Blake Michalzik Portfolio" />
+    <SEO title="Blake Michalzik" />
     <Header />
     <About />
     <Work />

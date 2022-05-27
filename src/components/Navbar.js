@@ -15,7 +15,7 @@ const Navbar = () => {
             <a href={downloadCV} download><img src={cvIcon} alt="icons"></img></a>
           </div>
           <div className="links-wrapper">
-            <button onClick={() => scrollTo("#work")}>Work</button>
+            <button onClick={() => scrollTo("#career")}>Career</button>
             <button onClick={() => scrollTo("#projects")}>Projects</button>
             <button onClick={() => scrollTo("#contact")}>Contact</button>
           </div>

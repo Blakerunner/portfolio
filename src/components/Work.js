@@ -6,11 +6,11 @@ import data from "../mydata"
 
 const Work = () => {
   return (
-    <div className="section" id="work">
+    <div className="section" id="career">
       <div className="container">
         <div className="work-wrapper">
           <Fade bottom>
-            <h1>Work</h1>
+            <h1>Career</h1>
           </Fade>
           <div className="grid">
             <Fade bottom cascade>

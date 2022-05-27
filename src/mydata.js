@@ -51,7 +51,7 @@ export default {
     {
       company: "StandardFusion",
       position: "Software Developer",
-      period: "Jan 2021 - Present",
+      period: "Jan 2022 - Present",
       roleList: [
         "Interpret, Design and Implement application features from internal or external drivers with lean 2 - 4 week release cycles.",
         "Collaborate with team members daily to achieve clean, well-designed and performant code base contributions.",
@@ -60,7 +60,9 @@ export default {
       ],
       imageSrc: standardfusionBanner,
       links: [
-        { url: "https://www.standardfusion.com/", icon: viewIcon },
+        { 
+          url: "https://www.standardfusion.com/", 
+          icon: viewIcon },
         {
           url: "https://www.linkedin.com/company/standardfusion/",
           icon: linkedinIcon,
@@ -78,7 +80,10 @@ export default {
       ],
       imageSrc: pedBanner,
       links: [
-        { url: "https://www.eyedoctorsmapleridge.ca/", icon: viewIcon },
+        { 
+          url: "https://www.eyedoctorsmapleridge.ca/", 
+          icon: viewIcon 
+        },
         {
           url: "https://www.linkedin.com/company/pacific-eye-doctors/",
           icon: linkedinIcon,
@@ -87,7 +92,7 @@ export default {
     },
     {
       company: "Setu Technologies Inc",
-      position: "Developer",
+      position: "Software Developer Co-op",
       period: "Sep 2021 - Dec 2021",
       roleList: [
         "Headed a team of 5 developers in Ideating, Designing, Developing, and Deploying a Web Application in 12 Weeks.",
@@ -101,7 +106,7 @@ export default {
     },
     {
       company: "AI for Ai",
-      position: "Developer",
+      position: "Software Developer Co-op",
       period: "Apr 2021 - May 2021",
       roleList: [
         "Headed a team of 4 in Ideating, Designing, Developing, and Deploying an Application in 5 weeks.",
