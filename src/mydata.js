@@ -4,6 +4,7 @@ import mimidBanner from "./images/mimid-banner.png"
 import succinctBanner from "./images/succinct-banner.png"
 
 // Works
+import standardfusionBanner from "./images/standardfusion-banner.png"
 import pedBanner from "./images/ped-banner.png"
 import aiforaiBanner from "./images/aiforai-banner.png"
 import setutechBanner from "./images/setutech-banner.png"
@@ -48,6 +49,25 @@ export default {
   // Work Section ------------------------
   works: [
     {
+      company: "StandardFusion",
+      position: "Software Developer",
+      period: "Jan 2021 - Present",
+      roleList: [
+        "Interpret, Design and Implement application features from internal or external drivers with lean 2 - 4 week release cycles.",
+        "Collaborate with team members daily to achieve clean, well-designed and performant code base contributions.",
+        "Liaise with superuser clients in strategizing and implementing customized product features, to customer satisfaction.",
+        "Produce high-quality customer curated SSRS reports.",
+      ],
+      imageSrc: standardfusionBanner,
+      links: [
+        { url: "https://www.standardfusion.com/", icon: viewIcon },
+        {
+          url: "https://www.linkedin.com/company/standardfusion/",
+          icon: linkedinIcon,
+        },
+      ],
+    },
+    {
       company: "Pacific Eye Doctors",
       position: "Solutions Architect",
       period: "Jun 2020 - Present",
@@ -82,7 +102,7 @@ export default {
     {
       company: "AI for Ai",
       position: "Developer",
-      period: "Apr 2021 – May 2021",
+      period: "Apr 2021 - May 2021",
       roleList: [
         "Headed a team of 4 in Ideating, Designing, Developing, and Deploying an Application in 5 weeks.",
         "Created a Web application that provided a secure method for clients to view specific industry asset information as a dashboard with integrated ML predictive asset degradation rates.",
@@ -101,7 +121,7 @@ export default {
     {
       company: "ADF Aviation",
       position: "Avionics Technician",
-      period: "Jan 2015 – Aug 2018",
+      period: "Jan 2015 - Aug 2018",
       roleList: [
         "Delivered day and night shift maintenance, with limited resources and time while ensuring the airworthiness of $32M Black Hawk helicopters.",
         "Carried out servicing, overhauls, and repairs to aircraft electrical systems and equipment.",
@@ -120,7 +140,7 @@ export default {
     {
       company: "ADF Royal Australian Engineers",
       position: "Airborne Combat Engineer",
-      period: "Apr 2008 – Jan 2015",
+      period: "Apr 2008 - Jan 2015",
       roleList: [
         "Immediately qualified and selected for the specialist, 21st Troop Airborne Engineers.",
         "Responsible for 12 personnel, a heavy leadership role providing guidance, knowledge, mentorship, and command.",
@@ -157,8 +177,7 @@ export default {
       links: [
         { url: "https://succinct.blakerunner.com", icon: serverIcon },
         {
-          url:
-            "https://devpost.com/software/succinct-pefvgq",
+          url: "https://devpost.com/software/succinct-pefvgq",
           icon: devpostIcon,
         },
       ],
@@ -168,10 +187,10 @@ export default {
       blurb:
         "Early Covid-19 and Pub G was still interesting. Covid Royale was a 16-bit attempt at a game that was fun and informative.",
       featureList: [
-        'Won Most Creative App & Best Teamwork Award against 61 other teams.',
+        "Won Most Creative App & Best Teamwork Award against 61 other teams.",
         "Ideated, Designed, Developed and Deployed a Web-based multiplayer game in 5 weeks.",
         "Specifically, server and game client interaction utilized Phaser 3 OOP game library, integration a 16-bit mapping method allowing for customized in-game maps.",
-        'Designed and implemented a modular map randomization method so no two games were the same, extending game re-playability substantially.',
+        "Designed and implemented a modular map randomization method so no two games were the same, extending game re-playability substantially.",
       ],
       imageSrc: covidroyaleBanner,
       links: [
@@ -206,14 +225,14 @@ export default {
 
   // About Secton --------------
   aboutParas: [
-    "Hello, I’m Blake Michalzik.",
-    "Soon to be grad with a Diploma in Computer Systems Technology from BCIT (Dec 2021).",
-    "I’m an Australian/Canadian, with a passion for creation and problem solving for anything that can be solved with tech for your business. With 10 years of Australian Military experience, I’ve learned a lot about how to deal with problems with deadlines, how to prioritize solutions and how to do that as a team.",
+    "Hello, I'm Blake Michalzik.",
+    "An Australian/Canadian, with a passion for creation and problem solving for anything that can be solved with tech for your business.",
+    "With 10 years of Australian Military experience, I've learned a lot about how to deal with problems with deadlines, how to prioritize solutions and how to do that as a team.",
     "Being around computers all my life and coming from a career where creative problem solving is a requirement, a natural progression has led me into computer engineering.",
-    "The intense learning conditions in BCIT’s programs have really ignited my vision of what I can do within the tech industry. I’ve thoroughly enjoyed every minute of being a programmer and I look forward to applying what I’ve learned to business solutions.",
+    "I've thoroughly enjoyed every minute of being a programmer and always I look forward to applying what I've learned to business solutions.",
     "I am still drawn to the concept of providing service. My goal is to leverage technology in a way to benefits humanity, and I am very excited to be on this path.",
-    "In my free time, you can find me in the gym listening to podcasts, in the kitchen whipping up a feast, watching mind-bending films or in a local forest enjoying the fresh air checking out what type of mushroom this one is up ahead.",
-    "I excel in group working environments with my experiences in the military called for professionalism always and the objective comes first. I am excellent at cutting down the issue and finding the core problem that needs to be solved. I have the tenacity that if I don’t know now how to do something, I find the questions that need to be asked, and then find answers to them.",
+    "In my free time, you can find me in the gym listening to podcasts, in the kitchen whipping up a feast, watching mind-bending films or in a local forest enjoying the fresh air.",
+    "I excel in group working environments with my experiences in the military called for professionalism always and the objective comes first. I have the tenacity that if I don't know now how to do something, I find the questions that need to be asked, and then find answers to them.",
   ],
   aboutImage: blakePortrait1,
 
